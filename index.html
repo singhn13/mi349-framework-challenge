@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Florist Shop - Fern & Petal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #293624;
+            color: #FFFFFF;
+        }
+
+        .btn-green {
+            background-color: #FFFFFF;
+            color: #293624;
+        }
+    </style>
+</head>
+<body>
+    <nav class="bg-transparent">
+        <div class="container mx-auto flex justify-between items-center p-4">
+            <a href="#" class="text-xl font-bold text-white">Fern & Petal</a>
+            <ul class="flex space-x-6">
+                <li><a href="#about" class="text-white hover:text-gray-300">About</a></li>
+                <li><a href="#services" class="text-white hover:text-gray-300">Services</a></li>
+                <li><a href="#contact" class="text-white hover:text-gray-300">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative bg-cover bg-center h-[50vh]" style="background-image: url('banner.png');">
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div class="relative z-10 flex flex-col items-center justify-center h-full text-white text-center">
+            <h1 class="text-4xl font-bold mb-4">Welcome to Fern & Petal</h1>
+            <p class="text-lg">Your trusted neighborhood florist for every occasion.</p>
+        </div>
+    </header>
+
+    <section id="about" class="py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold text-white mb-6">About Us</h2>
+            <p class="text-lg text-gray-300 max-w-2xl mx-auto">At Fern & Petal, we specialize in creating beautiful floral arrangements for weddings, birthdays, anniversaries, and everyday moments. Our flowers are sourced fresh and arranged with care.</p>
+        </div>
+    </section>
+
+    <section id="services" class="py-16 bg-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold text-white mb-6">Our Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-6 bg-lime-950 rounded-lg shadow-lg">
+                    <div class="w-48 h-48 mx-auto overflow-hidden rounded-lg">
+                        <img src="wedding-flowers.png" alt="Wedding Flowers" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mt-4">Wedding Arrangements</h3>
+                    <p class="text-gray-300 mt-2">Elegant floral designs for your special day.</p>
+                </div>
+                <div class="p-6 bg-lime-950 rounded-lg shadow-lg">
+                    <div class="w-48 h-48 mx-auto overflow-hidden rounded-lg">
+                        <img src="bouquets-and-gifts.png" alt="Gifts" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mt-4">Bouquets & Gifts</h3>
+                    <p class="text-gray-300 mt-2">Beautiful bouquets and gifts for all occasions.</p>
+                </div>
+                <div class="p-6 bg-lime-950 rounded-lg shadow-lg">
+                    <div class="w-48 h-48 mx-auto overflow-hidden rounded-lg">
+                        <img src="event-flowers.png" alt="Event Decor" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mt-4">Event Decor</h3>
+                    <p class="text-gray-300 mt-2">Stunning floral arrangements for any event.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold text-white mb-6">Get in Touch</h2>
+            <p class="text-lg text-gray-300 mb-4">Visit us at our shop or get in touch online!</p>
+            <div class="flex justify-center items-center space-x-4">
+                <a href="#" class="btn-green inline-block px-6 py-3 rounded-lg shadow">Visit Us</a>
+                <a href="mailto:info@fernandpetal.com" class="btn-green inline-block px-6 py-3 rounded-lg shadow">Email Us</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-black text-white py-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Fern & Petal. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
